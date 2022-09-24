@@ -1,0 +1,37 @@
+1/
+procedure dotProduct(v1,v2:array_of_integer ; n:integer)
+      
+var i,ps:integer;
+   BEGIN
+       ps= 0;
+   
+       
+        for i from 0 to n-1 do 
+            ps = ps + v1[i] * v2[i];
+      
+   END
+
+
+
+2/
+Algorithme dotProduct
+VAR 
+v1,v2:array_of_integer[5];
+i,n:integer;
+BEGIN
+
+dotproduct(v1,v2,n);
+END
+
+ 3/
+function dotProduct(v1,v2:array_of_integer ; n:integer):integer
+    var
+   
+BEGIN
+        ps = 0;
+   
+          for i from 0 to n-1 do 
+            ps = ps + v1[i] * v2[i];
+        return ps;
+END
+    
